@@ -1,6 +1,6 @@
 # Pooter's Landing Page
 
-Credit:
+<h1>Credit:</h1>
 <br>
 Photo by <a href="https://unsplash.com/@ba1kouras?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Balkouras Nicos</a> on <a href="https://unsplash.com/s/photos/pc-build?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
