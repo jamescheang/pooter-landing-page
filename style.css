@@ -25,6 +25,7 @@ body {
     font-size: 24px;
     font-weight: bolder;
     color: #F9FAF8;
+    padding: 16px;
 }
 
 .header .right-links,
@@ -41,4 +42,144 @@ body {
 .spotlight {
     height: 300px;
     width: auto;
+}
+
+.header {
+    display: flex;
+}
+
+.header .right-links {
+    display: flex;
+    margin-left: auto;
+    padding: 16px;
+}
+
+.header .right-links ul {
+    display: flex;
+    gap: 16px;
+}
+
+.section-one {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 100px 0 100px 0;
+    gap: 64px;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 16px;
+}
+
+button.sign-up {
+    width: max-content;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 8px 32px 8px 32px;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.info-header-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 32px;
+}
+
+.section-two .content {
+    display: flex;
+    flex: 1 0 auto;
+    gap: 48px;
+    /* border: 5px solid red; */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    align-items: center;
+}
+
+.card .image-content img {
+    height: 150px;
+    width: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.card .info-content {
+    text-align: center;
+}
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    padding: 150px 0 150px 0;
+    background-color: #E5E7EB;
+    /* border: 5px solid red; */
+}
+
+.section-three .content {
+    display: flex;
+    flex-direction: column;
+    /* border: 5px solid red; */
+    width: 75%;
+    align-self: center;
+    gap: 16px;
+}
+
+.section-three .quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.section-three .quote-author {
+    text-align: right;
+    font-weight: bold;
+}
+
+.section-four {
+    display: flex;
+    flex-direction: column;
+    padding: 75px 0 75px 0;
+    /* border: 5px solid red; */
+}
+
+.section-four .cta-box {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 24px 50px 24px 50px;
+    gap: 160px;
+}
+
+.cta-header {
+    font-weight: bold;
+}
+
+button.sign-up.secondary {
+    border: 1px solid white;
+}
+
+.footer {
+    display: flex;
+    padding: 16px;
+    justify-content: center;
 }
